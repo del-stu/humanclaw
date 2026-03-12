@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HumanClaw</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body class="overflow-x-hidden">
+    <div class="bg-glow"></div>
+
+    <!-- 导航栏 -->
+    <nav class="fixed w-full z-50 px-6 py-4 flex justify-between items-center glass">
+        <div class="text-2xl font-black tracking-tighter italic">HUMAN<span class="text-orange-500">CLAW</span></div>
+        <div class="hidden md:flex space-x-8 text-sm font-medium text-gray-400">
+            <a href="#features" class="hover:text-white transition">特性</a>
+            <a href="#security" class="hover:text-white transition">安全</a>
+            <a href="#pricing" class="hover:text-white transition">定价</a>
+            <a href="./en.html" class="hover:text-white transition">English</a>
+        </div>
+        <button class="bg-white text-black px-5 py-2 rounded-full text-sm font-bold hover:bg-orange-500 transition">立即使用</button>
+    </nav>
+
+    <!-- Hero 页面 -->
+    <header class="pt-32 pb-20 px-6 text-center">
+        <div class="inline-block px-4 py-1 mb-6 rounded-full glass text-xs font-mono text-orange-400 border border-orange-500/30">
+            It's much easier to just open your computer.
+        </div>
+        <h1 class="text-5xl md:text-7xl font-black mb-6 tracking-tight">
+            Why let AI do human works,<br>
+            <span class="gradient-text">When you already have a brain?</span>
+        </h1>
+        <p class="max-w-2xl mx-auto text-gray-400 text-lg md:text-xl mb-10">
+            OpenClaw 烧光了几十块钱，只为能帮你订个还没token贵的外卖。而 <b>HumanClaw</b> 让你直接使用极其稀有的底层硬件：<b>你的手</b>。零延迟，零 Token 消耗，且原生支持“这种破事我自己点一下不就完了”逻辑。
+        </p>
+        <div class="flex flex-col md:flex-row justify-center gap-4">
+            <button class="bg-orange-600 hover:bg-orange-500 text-white px-8 py-4 rounded-xl font-bold text-lg transition shadow-xl shadow-orange-900/20">
+                开始省钱
+            </button>
+        </div>
+    </header>
+
+    <!-- 讽刺特性区 -->
+    <section id="features" class="py-20 px-6 max-w-7xl mx-auto">
+        <div class="text-center mb-16">
+            <h2 class="text-3xl font-bold mb-4">为什么 HumanClaw 碾压 OpenClaw？</h2>
+            <p class="text-gray-500">在这个所有人都想让 AI 帮他们洗袜子的时代，我们逆流而上。</p>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div class="glass p-8 rounded-3xl neon-border transition">
+                <div class="text-orange-500 mb-4 text-3xl">👋</div>
+                <h3 class="text-xl font-bold mb-3">生物能驱动</h3>
+                <p class="text-gray-400 leading-relaxed">
+                    OpenClaw 需要 50 层复杂的 MCP 协议和 Skills。HumanClaw 只需你伸出两只手。成功率 100%
+                </p>
+            </div>
+            <div class="glass p-8 rounded-3xl neon-border transition border-orange-500/20">
+                <div class="text-orange-500 mb-4 text-3xl">⚡</div>
+                <h3 class="text-xl font-bold mb-3">极致的端到端效率</h3>
+                <p class="text-gray-400 leading-relaxed">
+                    与其教 Agent 总结新闻，你自己看只需一分钟。HumanClaw：专为那些还没变废人的人设计。
+                </p>
+            </div>
+            <div class="glass p-8 rounded-3xl neon-border transition">
+                <div class="text-orange-500 mb-4 text-3xl">🧠</div>
+                <h3 class="text-xl font-bold mb-3">真正的 RAG</h3>
+                <p class="text-gray-400 leading-relaxed">
+                    不再需要祈祷AI能记住上下文。HumanClaw 直接访问你那虽然偶尔短路但真实存在的脑细胞。
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- 安全性讽刺 -->
+    <section id="security" class="py-20 glass my-20">
+        <div class="max-w-4xl mx-auto px-6 text-center">
+            <h2 class="text-4xl font-black mb-8">超越 OpenClaw 的安全性</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-12 text-left">
+                <div>
+                    <h4 class="text-orange-400 font-mono mb-2 uppercase tracking-widest text-sm">Zero Hallucination</h4>
+                    <p class="text-gray-300">
+                        No more delete all your things for no reason.
+                    </p>
+                </div>
+                <div>
+                    <h4 class="text-orange-400 font-mono mb-2 uppercase tracking-widest text-sm">Prompt Injection Defense</h4>
+                    <p class="text-gray-300">
+                        No one will ever get your credit card with just one sentence again.
+                    </p>
+                </div>
+            </div>
+            <div class="mt-12 p-8 bg-orange-600/10 rounded-2xl border border-orange-600/20">
+                <p class="text-xl italic text-blue-100">
+                    "I spent three hours debugging it to reply emails, and it deleted them all. That's when I realized that it would only take me a few minutes to reply directly."
+                </p>
+                <p class="mt-4 text-sm text-gray-500">- Some random dude</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- 价格区 -->
+    <section id="pricing" class="py-20 px-6 max-w-5xl mx-auto">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <div class="border-2 border-white/10 p-10 rounded-3xl flex flex-col justify-between">
+                <div>
+                    <h3 class="text-2xl font-bold mb-2">Cutting-Edge Plan</h3>
+                    <div class="text-4xl font-black mb-6">$70+ <span class="text-sm font-normal text-gray-500">/ Day</span></div>
+                    <ul class="space-y-4 text-gray-400 mb-8">
+                        <li class="flex items-center gap-2"><span class="text-green-500">✔</span> Spent money just to reply emails</li>
+                        <li class="flex items-center gap-2"><span class="text-green-500">✔</span> Good at complicating simple problems</li>
+                        <li class="flex items-center gap-2"><span class="text-green-500">✔</span> Occasionally able to understand human language</li>
+                    </ul>
+                </div>
+                <button class="w-full py-3 border border-white/20 rounded-xl hover:bg-white/10 transition">Continue to follow the trend</button>
+            </div>
+            <div class="border-2 border-orange-500 p-10 rounded-3xl bg-orange-500/5 relative overflow-hidden">
+                <div>
+                    <h3 class="text-2xl font-bold mb-2">The FREE Plan</h3>
+                    <div class="text-4xl font-black mb-6">$0</div>
+                    <ul class="space-y-4 text-gray-400 mb-8">
+                        <li class="flex items-center gap-2"><span class="text-orange-500">✔</span> Stop spending all your savings</li>
+                        <li class="flex items-center gap-2"><span class="text-orange-500">✔</span> Won't lead to errors because of not spending enough money</li>
+                        <li class="flex items-center gap-2"><span class="text-orange-500">✔</span> Just use free ordinary AI</li>
+                    </ul>
+                </div>
+                <button class="w-full py-3 bg-orange-500 text-white rounded-xl font-bold hover:bg-orange-600 transition">Start using your arms</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-20 border-t border-white/10 px-6 text-center text-gray-600">
+        <p class="text-sm font-mono mb-4">2026 ChakerAt. The webpage style was written by Gemini (Without Agent tools).</p>
+        <p class="text-xs">
+            Disclaimer: Using HumanClaw may make you feel like your IQ has returned, and this discomfort is normal.
+        </p>
+        <p class="text-xs">
+            We strongly recommend that you try reading this page with your eyes before attempting to use an agent to automatically summarize it and send it to your Telegram.
+        </p>
+    </footer>
+</body>
+</html>
